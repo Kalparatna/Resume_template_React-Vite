@@ -1,0 +1,238 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    justify-content: center;
+  }
+  
+  /* Resume Container */
+  .resume-container {
+    max-width: 1200px;
+  
+    margin: 20px auto;
+    background-color: #ffffff; /* Removed gradient background */
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #0077b5;
+  }
+  
+  /* Header */
+  .resume-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .resume-header h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .resume-header h2 {
+    font-size: 22px;
+    color: #0077b5;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;  /* Added flexbox to make the links appear in one line */
+    justify-content: center;  /* Centers the links horizontally */
+    margin: 20px 0;
+    gap: 20px;  /* Space between each link */
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #0077b5;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #005f8d;
+  }
+  
+  .resume-header p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #0077b5;
+    padding-bottom: 5px;
+  }
+  
+  /* Section Styling */
+  section {
+    margin-bottom: 20px;
+    text-align: left; 
+  }
+  
+  .education-item,
+  .project-item,
+  .job {
+    margin-bottom: 5px;
+  }
+  
+  .education-item h3,
+  .project-item h3,
+  .job h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0077b5;
+  }
+  
+  .education-item p,
+  .project-item p,
+  .job p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .job ul, .project-item ul {
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+  }
+  
+  /* Projects */
+  .project-links a {
+    text-decoration: none;
+    color: #0077b5;
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  
+  .project-links a:hover {
+    color: #005f8d;
+    text-decoration: underline;
+  }
+  
+  /* Skills and Languages List */
+  .skills ul, .languages ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skills li, .languages li {
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+
+  }
+  
+
+  /* General Formatting */
+  section p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+  }
+  
+  .resume-content {
+    margin-top: 5px;
+  }
+  
+  /* About Me Section */
+  .about-me p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Achievements */
+  .achievements ul {
+    padding-left: 20px;
+  }
+  
+  .achievements li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0px;
+    transition: color 0.3s ease;
+  }
+  
+  .achievements li:hover {
+    color: #0077b5;
+  }
+  
+  /* Work Experience Section */
+ 
+  .work-experience-section .job ul {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Education Section */
+  .education-item h3 {
+    color: #0077b5;
+    font-size: 18px;
+  }
+  
+  .education-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .resume-container {
+      padding: 20px;
+    }
+  
+    .resume-header h1 {
+      font-size: 30px;
+    }
+  
+    .resume-header h2 {
+      font-size: 18px;
+    }
+  
+    .social-links {
+      flex-direction: column;  /* Stack the links vertically on small screens */
+      gap: 15px;
+    }
+  
+    .social-links a {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .skills ul, .languages ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .skills li, .languages li {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }
+  
