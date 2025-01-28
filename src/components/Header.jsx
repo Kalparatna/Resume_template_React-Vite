@@ -10,7 +10,7 @@ const Header = () => {
         <div className="social-links">
           <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <p><b>📞+123 456 7890</b> | <b>✉️ johndoe@example.com</b> </p>
+          <p><b>📞+123 456 7890</b> | <b>✉️ marksmith@example.com</b> </p>
         </div>
         
       </div>
